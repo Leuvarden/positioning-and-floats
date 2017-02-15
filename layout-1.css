@@ -1,5 +1,5 @@
 body {
-  height: 1500px;
+  height: 1700px;
   font-family: 'PT Sans', sans-serif;
   font-size: 100%;
   margin: 0;
@@ -9,17 +9,16 @@ body {
 .layer {
   position: absolute;
   margin: auto;
-  width: 540px;
-  min-height: 750px;
+  width: 610px;
+  min-height: 720px;
   padding: 40px;
   border: 2px solid black;
   font-size: 14px;
 }
 
 .div-1 {
-  top: 50;
+  top: 150;
   left: 0;
-  /*bottom: 0;*/
   right: 0;
   background-color: #ebebeb;
   z-index: 10;
@@ -45,22 +44,21 @@ body {
 
   .div-1 .img-div img {
     margin: 10px 0;
+    cursor: pointer;
   }
 
  .div-2 {
-   top: 70;
+   top: 170;
    right: -40;
    left: 0;
-   /*bottom: 0;*/
    background-color: #cccccc;
    z-index: 8;
  }
 
  .div-3 {
    background-color: #acacac;
-   top: 90;
+   top: 190;
    left: 0;
-   /*bottom: 0;*/
    right: -80;
    z-index: 6;
  }
@@ -68,34 +66,34 @@ body {
  .sticker {
    position: absolute;
    right: -125px;
-   top: 75px;
-   width: 150px;
-   height: 40px;
+   top: 38px;
+   width: 180px;
+   height: 50px;
    border: 2px solid #000;
    border-radius: 0 10px 10px 0;
  }
 
  .s-1 {
-   background-color: orange;
-   /*right: -126px;
-   top: 55px;*/
+   background-color: #f68e56;
  }
  .s-2 {
-   background-color: green;
+   background-color: #39b54a;
  }
  .s-3 {
-   background-color: blue;
+   background-color: #00aeef;
  }
 
 .share {
   position: fixed;
   right: -1px;
   bottom: 30px;
-  width: 90px;
-  height: 70px;
-  background-color: orange;
+  width: 98px;
+  height: 60px;
+  padding: 5px;
+  background-color: #fbaf5d;
   border: 1px solid black;
   text-align: center;
+  z-index: 50;
 }
 
  .left {
@@ -119,12 +117,6 @@ body {
      height: 100%;
     }
 
-    .facebook {
-      background: url(img/icons.png) no-repeat 0px 0px;
-    }
-    .twitter {
-      background: url(img/icons.png) no-repeat -28px 0px;
-    }
-    .instagram {
-      background: url(img/icons.png) no-repeat -56px 0px;
-    }
+    .facebook {background: url(img/icons.png) no-repeat 0px 0px;}
+    .twitter {background: url(img/icons.png) no-repeat -28px 0px;}
+    .instagram {background: url(img/icons.png) no-repeat -56px 0px;}
